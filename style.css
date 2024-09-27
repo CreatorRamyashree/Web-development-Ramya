@@ -1,0 +1,60 @@
+
+
+body{ 
+
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+ color: aliceblue;
+
+}
+
+h1{
+color: rgb(117, 117, 244);
+}
+
+a{
+ color: bisque;
+    text-decoration: none;
+}
+
+a:hover {
+color:rgb(240, 254, 137) ;
+}
+
+ul > li {
+font-weight: bold;
+}
+
+h1 + p {
+
+background-color: rgb(0, 0, 0);
+padding: 10px;
+border-radius: 5px;
+}
+
+ul li:hover {
+
+color: rgb(67, 67, 141);
+}
+
+ul li:nth-child {
+background-color: aqua;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li ::before{
+ content: "🚀";
+}
+
+a::after{
+ content: "🌌";
+}
+
+p::first-letter{
+font-size: 200%;
+color: rgb(243, 150, 69);
+}
+
