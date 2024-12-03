@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+   <h2>Javascript async / await.</h2>
+<p id="result"></p>
+<script>
+
+async function add(a, b) {
+    let response = await a + b;
+    display(response);
+}
+
+function display(some) {
+document.getElementById("result").innerHTML = some;
+}
+
+add(10, 50);
+
+</script>
+</body>
+
+</html>
